@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite1">
+	<test thread-count="5" name="Sanity">
+		<classes>
+
+			<class name="testSuite.Module1">
+				<methods>
+					<include name="test001"></include>
+				</methods>
+			</class>
+
+			<class name="testSuite.Module2">
+				<methods>
+					<exclude name="test002"></exclude>
+
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Sanity -->
+</suite> <!-- TestSuite1 -->
